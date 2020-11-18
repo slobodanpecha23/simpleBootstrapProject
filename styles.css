@@ -4,6 +4,8 @@ body {
     background-color: #838186;
 }
 
+/* Navbar */
+
 nav {
     background-color: #7952b3;
 }
@@ -18,16 +20,66 @@ nav ul li a {
     margin: auto 8px;
 }
 
+/* Home  */
+
+.my-bg {
+    background-image: url("https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2018/03/03103805/big-concert-audience-listening-to-music-at-festival-picture-id485343244.jpg");
+    height: 650px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-shadow-text {
+    color: #ffffff;
+    font-weight: 800;
+    text-shadow: 2px 2px #000000;
+}
+
+.home-shadow-text span {
+    color: #f3a023;
+}
+
+.home-btn-1 {
+    width: 200px;
+    background-color: #7952b3;
+    color: #ffffff;
+    border: 3px solid #7952b3;
+}
+
+.home-btn-1:hover {
+    background-color: #ffffff;
+    color: #7952b3;
+}
+
+.home-btn-2 {
+    width: 200px;
+    border: 3px solid #7952b3;
+    color: #ffffff !important;
+    box-sizing: border-box;
+}
+
+/* History */
+
 .my-mt {
     margin-top: 100px;
 }
 
-.my-color {
+.my-outline-btn {
     border-color: #7952b3;
     color: #7952b3;
 }
 
-.my-color:hover {
+.my-outline-btn:hover {
     background-color: #7952b3;
     border-color: #7952b3;
+    color: #ffffff;
 }
