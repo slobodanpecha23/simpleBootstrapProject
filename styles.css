@@ -17,3 +17,17 @@ nav ul li a {
     font-size: 18px;
     margin: auto 8px;
 }
+
+.my-mt {
+    margin-top: 100px;
+}
+
+.my-color {
+    border-color: #7952b3;
+    color: #7952b3;
+}
+
+.my-color:hover {
+    background-color: #7952b3;
+    border-color: #7952b3;
+}
