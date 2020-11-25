@@ -12,8 +12,8 @@ body {
 }
 
 .section-title {
-    color: #ffffff;
-    text-shadow: 2px 2px #000000;
+    /* color: #666363c2; */
+    text-shadow: 3px 3px #f74a05;
 }
 
 /*===================================
@@ -110,7 +110,7 @@ History
 }
 
 /*===================================
-Modal  
+Movable background
 ===================================*/
 
 @font-face {
@@ -133,4 +133,36 @@ Modal
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+/*===================================
+Top list
+===================================*/
+
+.my-container {
+    height: 220px;
+    background-image: url(./assets/music-notes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+}
+
+.my-bg-img {
+    background-image: url(./assets/microphone.png);
+}
+
+/*===================================
+Contact
+===================================*/
+
+.contact-bg {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKASRHzWRl0BF8dGLhB2jo1vfXiXR-tUB12A&usqp=CAU");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

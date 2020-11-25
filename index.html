@@ -29,28 +29,28 @@
           <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Genres</a>
+          <a class="nav-link" href="#genres">Genres</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#history">History</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#performers">Performers</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#topList">Top list</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Performers</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
-  <!-- Navbar End -->
+  <!-- Navbar End ============================================================= -->
 
   <!-- Home -->
   <div class="container-fluid home">
-    <h1 class="display-2 home-shadow-text">MUSI<span>COOL</span></h1>
+    <h1 class="display-1 home-shadow-text">MUSI<span>COOL</span></h1>
     <h3 class="home-shadow-text">Explore World of Music!</h3>
     <div class="flex mt-5">
       <a class="btn btn-outline home-btn-1 btn-lg" href="https://en.wikipedia.org/wiki/Music" role="button">Explore</a>
@@ -58,45 +58,40 @@
         role="button">Explore</a>
     </div>
   </div>
-  <!-- End Home -->
+  <!-- End Home =============================================================== -->
 
   <!-- Genres  -->
-  <div class="container text-center">
-    <h1>Genres</h1>
-    <p class="pt-2">These are some of our favorite music genres!</p>
+  <div class="container text-center" id="genres">
+    <h1 class="display-4">Genres</h1>
+    <h2 class="pt-2">These are some of our favorite music genres!</h2>
   </div>
 
   <div class="container text-center pt-4">
     <div class="row">
-      <div class="col-4">
-        <img src="./assets/guitars.png" alt="rock guitar" class="img-fluid">
+      <div class="col-md-4">
+        <img src="./assets/guitars.png" alt="rock guitar" class="img-fluid p-4">
+        <div>
+          <h3>Rock and Roll</h3>
+          <p>Rock and roll (often written as rock & roll, rock 'n' roll, or rock 'n roll) is a genre of popular music that evolved in the United States during the late 1940s and early 1950s. It originated from musical styles such as gospel, jump blues, jazz, boogie woogie, rhythm and blues, and country music. While rock and roll's formative elements can be heard in blues records from the 1920s, and in country records of the 1930s, the genre did not acquire its name until 1954.</p>
+        </div>
       </div>
-      <div class="col-4">
-        <img src="./assets/saxophone.png" alt="jazz sax" class="img-fluid">
+      <div class="col-md-4">
+        <img src="./assets/saxophone.png" alt="jazz sax" class="img-fluid p-4">
+        <div>
+          <h3>Jazz</h3>
+          <p>Jazz is a music genre that originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries, with its roots in blues and ragtime. Since the 1920s Jazz Age, it has been recognized as a major form of musical expression in traditional and popular music, linked by the common bonds of African-American and European-American musical parentage. Jazz is characterized by swing and blue notes, complex chords, call and response vocals, polyrhythms and improvisation. Jazz has roots in West African cultural and musical expression, and in African-American music traditions.</p>      
+        </div>
       </div>
-      <div class="col-4">
-        <img src="./assets/piano.png" alt="classical piano" class="img-fluid">
-      </div>
-    </div>
-  </div>
-
-  <div class="container text-center py-5">
-    <div class="row">
-      <div class="col-4">
-        <h3>Rock and roll</h3>
-        <p>Rock and roll (often written as rock & roll, rock 'n' roll, or rock 'n roll) is a genre of popular music that evolved in the United States during the late 1940s and early 1950s. It originated from musical styles such as gospel, jump blues, jazz, boogie woogie, rhythm and blues, and country music. While rock and roll's formative elements can be heard in blues records from the 1920s, and in country records of the 1930s, the genre did not acquire its name until 1954.</p>
-      </div>
-      <div class="col-4">
-        <h3>Jazz</h3>
-        <p>Jazz is a music genre that originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries, with its roots in blues and ragtime. Since the 1920s Jazz Age, it has been recognized as a major form of musical expression in traditional and popular music, linked by the common bonds of African-American and European-American musical parentage. Jazz is characterized by swing and blue notes, complex chords, call and response vocals, polyrhythms and improvisation. Jazz has roots in West African cultural and musical expression, and in African-American music traditions.</p>      
-      </div>
-      <div class="col-4">
-        <h3>Classical music</h3>
-        <p>Classical music is art music produced or rooted in the traditions of Western culture, including both liturgical (religious) and secular music. While a more precise term is also used to refer to the period from 1750 to 1820 (the Classical period), this article is about the broad span of time from before the 6th century AD to the present day, which includes the Classical period and various other periods. The central norms of this tradition became codified between 1650 and 1900, which is known as the common-practice period.</p>
+      <div class="col-md-4">
+        <img src="./assets/piano.png" alt="classical piano" class="img-fluid p-4">
+        <div>
+          <h3>Classical music</h3>
+          <p>Classical music is art music produced or rooted in the traditions of Western culture, including both liturgical (religious) and secular music. While a more precise term is also used to refer to the period from 1750 to 1820 (the Classical period), this article is about the broad span of time from before the 6th century AD to the present day, which includes the Classical period and various other periods. The central norms of this tradition became codified between 1650 and 1900, which is known as the common-practice period.</p>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- End of genres -->
+  </div>    
+  <!-- End of genres ========================================================== -->
 
   <!-- History section -->
   <div class="container my-mt my-bt" id="history">
@@ -117,22 +112,154 @@
         more</a>
     </div>
   </div>
-  <!-- End History section -->
+  <!-- End History section ==================================================== -->
 
-  <!-- Modal Section -->
+  <!-- Performers -->
+
+      <!-- Eric Modal -->
+      <div class="modal fade" id="ericModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Eric Clapton</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img 
+              style="height: 200px;" 
+              class="img-fluid"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8mYmOkqcjIj--VHPA9n_gIg7UHZTyNlo_KA&usqp=CAU" 
+              alt="Eric image">
+              <p class="pt-2">Eric Patrick Clapton, CBE (born 30 March 1945) is an English rock and blues guitarist, singer, and songwriter. He is the only three-time inductee to the Rock and Roll Hall of Fame: once as a solo artist and separately as a member of the Yardbirds and of Cream. Clapton has been referred to as one of the most important and influential guitarists of all time. Clapton ranked second in Rolling Stone's list of the "100 Greatest Guitarists of All Time" and fourth in Gibson's "Top 50 Guitarists of All Time". He was also named number five in Time magazine's list of "The 10 Best Electric Guitar Players" in 2009.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- AC/DC Modal -->
+      <div class="modal fade" id="acdcModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">AC/DC</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img 
+              style="height: 200px;" 
+              class="img-fluid"
+              src="https://tonedeaf.thebrag.com/wp-content/uploads/2020/03/acdc-highway-768x435-1-400x200.jpg" 
+              alt="Eric image">
+              <p class="pt-2">AC/DC underwent several line-up changes before releasing their first album, 1975's High Voltage. Membership subsequently stabilised around the Young brothers, singer Bon Scott, drummer Phil Rudd, and bassist Mark Evans. Evans was fired from the band in 1977 and replaced by Cliff Williams, who has appeared on every AC/DC album since 1978's Powerage. In February 1980, Scott died of acute alcohol poisoning after a night of heavy drinking.[4] The group considered disbanding but elected to stay together, bringing in longtime Geordie vocalist Brian Johnson as Scott's replacement.[5] Later that year, the band released their first album with Johnson, Back in Black, which was dedicated to Scott's memory. The album launched AC/DC to new heights of success and became one of the best selling albums of all time.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Frank Modal -->
+      <div class="modal fade" id="frankModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Frank Sinatra</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img 
+              style="height: 200px;" 
+              class="img-fluid"
+              src="https://i.iheart.com/v3/re/new_assets/d0648375658aee13d965ce4017d68830?ops=max(1770%2C400)" 
+              alt="Eric image">
+              <p class="pt-2">Born to Italian immigrants in Hoboken, New Jersey, Sinatra was greatly influenced by the intimate easy listening vocal style of Bing Crosby[2] and began his musical career in the swing era with bandleaders Harry James and Tommy Dorsey. Sinatra found success as a solo artist after he signed with Columbia Records in 1943, becoming the idol of the "bobby soxers". He released his debut album, The Voice of Frank Sinatra, in 1946. But by the early 1950s his professional career had stalled and he turned to Las Vegas, where he became one of its best known residency performers as part of the Rat Pack. His career was reborn in 1953 with the success of From Here to Eternity, with his performance subsequently winning an Academy Award and Golden Globe Award for Best Supporting Actor. Sinatra released several critically lauded albums, including In the Wee Small Hours (1955), Songs for Swingin' Lovers! (1956), Come Fly with Me (1958), Only the Lonely (1958) and Nice 'n' Easy (1960).</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div class="container my-container my-bg-img my-mt">
+    <p class="color-light section-title" id="performers">Performers</p>
+  </div>
+
+  <div class="container text-left py-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" >
+          <img 
+            style="height: 200px;" 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8mYmOkqcjIj--VHPA9n_gIg7UHZTyNlo_KA&usqp=CAU" 
+            class="card-img-top" 
+            alt="Eric image">
+          <div class="card-body">
+            <h5 class="card-title">Eric Clapton</h5>
+            <p class="card-text">Eric Patrick Clapton, CBE (born 30 March 1945) is an English rock and blues guitarist, singer, and songwriter. He is the only three-time inductee to the Rock and Roll Hall of Fame: once as a solo artist and separately as a member of the Yardbirds and of Cream. Clapton has been referred to as one of the most...</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ericModal">
+              See more
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img 
+            style="height: 200px;" 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSHsmwiO7fTRjYedeldMFMirSUdPq1w5XFCA&usqp=CAU" 
+            class="card-img-top" 
+            alt="AC/DC">
+          <div class="card-body">
+            <h5 class="card-title">AC/DC</h5>
+            <p class="card-text">AC/DC (stylised as ACϟDC) are an Australian rock band formed in Sydney in 1973 by Scottish-born brothers Malcolm and Angus Young. Although their music has been variously described as hard rock, blues rock, and heavy metal, the band themselves call it simply "rock and roll".</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#acdcModal">
+              See more
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img 
+            style="height: 200px;" 
+            src="https://www.siriusxm.com/content/dam/sxm-com/spotlight-images/channel-artist-led/ChannelPage-FI-1600x900-Sinatra-ArtistLed.jpg" 
+            class="card-img-top" 
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Frank Sinatra</h5>
+            <p class="card-text">Francis Albert Sinatra (/sɪˈnɑːtrə/; December 12, 1915 – May 14, 1998) was an American singer, actor and producer who was one of the most popular and influential musical artists of the 20th century. He is one of the best-selling music artists of all time, having sold more than 150 million records worldwide.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#frankModal">
+              See more
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!-- End Performers ======================================================== -->
+
+  <!-- Movable Section -->
   <div class="container-fluid p-0">
     <div class="movable-bg">
       <p>Feel the beat</p>
     </div>
   </div>
-  <!-- End Modal Section -->
+  <!-- End Movable Section =================================================== -->
 
   <!-- Top list -->
-  <div class="container my-mt">
-    <div class="d-flex">
-      <img src="./assets/guitar.png" alt="logo" class="logo" width="40px" height="40px">
-      <h2 class="ml-2 section-title" id="topList">Top list</h2>
-    </div>
+  <div class="container my-container my-mt">
+    <p class="color-light section-title" id="topList">Top list</p>
+  </div>
+  <div class="container">
     <table class="table table-dark">
       <thead class="thead-light">
         <tr>
@@ -206,7 +333,27 @@
       </tbody>
     </table>
   </div>
-  <!-- End Top list -->
+  <!-- End Top list ========================================================== -->
+
+  <!-- Contact -->
+  <div id="contact" class="container-fluid p-0">
+    <div class="row mt-5 mb-5 mx-0 px-3">
+      <div class="col-md-6 text-center d-flex flex-column justify-content-center">
+        <h1 class="display-3">Contact Us</h1>
+        <h1>If you want to learn more about music, send us an email...</h1>
+      </div>
+      <div class="col-md-6 px-3">
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" class="form-control">
+          <label for="email" class="pt-2">Email</label>
+          <input type="text" name="email" id="email" class="form-control">
+          <textarea name="message" id="message" rows="7" placeholder="Message" class="mt-3 p-2 form-control"></textarea>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact =========================================================== -->
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
