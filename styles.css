@@ -166,3 +166,38 @@ Contact
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.send-btn {
+    background-color: #7952b3;
+    color: #ffffff;
+    border: 3px solid #7952b3;
+}
+
+/*===================================
+Footer
+===================================*/
+
+.footer-bg {
+    background-color: #7952b3;
+}
+
+.footer-bg .row a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-bg .row a:hover {
+    color: #f3a023;
+}
+
+.smed i {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 5px;
+}
+
+.footer-text {
+    color: #ffffff;
+    width: 300px;
+    text-align: justify;
+}
