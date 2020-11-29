@@ -17,6 +17,18 @@ nav.scrolled {
     background: #7952b3 !important;
 }
 
+@media screen and (max-width: 600px) {
+    .query-font-size {
+        font-size: 4rem;
+    }
+
+    .fl-dir-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /*===================================
  Navbar
  ================================= */
